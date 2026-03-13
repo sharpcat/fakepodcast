@@ -2,17 +2,17 @@
 <rss version="2.0">
   <channel>
     <title>Fake Test Podcast</title>
-    <link>https://sharpact.github.io/fakepodcast/</link>
+    <link>https://sharpcat.github.io/fakepodcast/</link>
     <description>Podcast for testing No Title behavior</description>
 
     <item>
-      <!-- 这里故意留空，Podcast 就会显示「No Title」 -->
+      <!-- 故意留空标题，让客户端显示「No Title」 -->
       <title></title>
 
-      <!-- 指向你的 20 秒静音 WAV 文件 -->
+      <!-- 指向 20 秒静音 WAV；length 是字节数，可不写或保留这个近似值也行 -->
       <enclosure 
-        url="https://sharpact.github.io/fakepodcast/notitle_20s.wav" 
-        length="1764044" 
+        url="https://sharpcat.github.io/fakepodcast/notitle_20s.wav"
+        length="1764044"
         type="audio/wav" />
 
       <guid>test-notitle-001</guid>

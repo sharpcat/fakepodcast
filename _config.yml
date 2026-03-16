@@ -1,5 +1,6 @@
 include:
-  - notitle_20s.wav
+  - notitle_20s.m4a
   - feed.rss
+  - feed.xml
   - index.html
 ``

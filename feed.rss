@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
   <channel>
-    <title>Fake Test Podcast</title>
+    <title>Fake Podcast</title>
     <link>https://sharpcat.github.io/fakepodcast/</link>
-    <description>Podcast for testing No Title behavior</description>
+    <description>Test feed for Apple Podcasts</description>
+    <language>zh-cn</language>
+
+    <atom:link href="https://sharpcat.github.io/fakepodcast/feed.rss"
+               rel="self"
+               type="application/rss+xml"/>
+
+    <itunes:author>sharpcat</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
 
     <item>
-      <!-- 故意留空标题，让客户端显示「No Title」 -->
       <title></title>
+      <description>20s WAV test file</description>
+      <pubDate>Mon, 17 Mar 2025 12:00:00 +0000</pubDate>
+      <guid>notitle_20s.wav</guid>
 
-      <!-- 指向 20 秒静音 WAV；length 是字节数，可不写或保留这个近似值也行 -->
-      <enclosure 
-        url="https://sharpcat.github.io/fakepodcast/notitle_20s.m4a"
-        length="7778"
-        type="audio/mp4"/>
-
-      <guid>test-notitle-001</guid>
+      <enclosure
+        url="https://sharpcat.github.io/fakepodcast/notitle_20s.wav"
+        length="2000000"
+        type="audio/wav" />
     </item>
 
   </channel>

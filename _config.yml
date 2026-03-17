@@ -1,5 +1,7 @@
 include:
   - notitle_20s.m4a
+  - notitle_20s.wav
+  - notitle_20s.mp3
   - feed.rss
   - feed.xml
   - feed2.xml

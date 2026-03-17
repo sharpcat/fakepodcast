@@ -24,8 +24,8 @@
 
       <enclosure
         url="https://sharpcat.github.io/fakepodcast/notitle_20s.m4a"
-        length="7778"
-        type="audio/wav" />
+        length="2000000"
+        type="audio/mp4" />
     </item>
 
   </channel>

@@ -2,5 +2,6 @@ include:
   - notitle_20s.m4a
   - feed.rss
   - feed.xml
+  - feed2.xml
   - index.html
 ``

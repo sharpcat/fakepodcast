@@ -23,9 +23,9 @@
       <guid>notitle_20s.wav</guid>
 
       <enclosure
-        url="https://sharpcat.github.io/fakepodcast/notitle_20s.m4a"
+        url="https://sharpcat.github.io/fakepodcast/notitle_20s.wav"
         length="2000000"
-        type="audio/mp4" />
+        type="audio/wav" />
     </item>
 
   </channel>
